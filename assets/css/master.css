@@ -3,3 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  width: 90%;
+  margin: 0 5%;
+  margin-top: 25px;
+}
+
+header {
+  height: 100px;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class^="col-"] {
+  float: left;
+}
+
+/* Backgrounds */
+.bg-pink {
+  background-color: rgb(229, 121, 230);
+  height: 100px;
+}
+
+/* Cell's widths */
+.col-100 {
+  width: 100%;
+}
