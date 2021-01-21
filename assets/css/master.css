@@ -14,15 +14,17 @@ header {
   height: 100px;
 }
 
+[class^="col-"] {
+  float: left;
+}
+
+/* Attibute row */
 .row:after {
   content: "";
   clear: both;
   display: table;
 }
 
-[class^="col-"] {
-  float: left;
-}
 
 /* Backgrounds */
 .bg-pink {
@@ -30,6 +32,10 @@ header {
   height: 100px;
 }
 
+.bg-yellow{
+  background-color: rgb(225, 214, 122);
+  height: 250px;
+}
 /* Cell's widths */
 .col-100 {
   width: 100%;
