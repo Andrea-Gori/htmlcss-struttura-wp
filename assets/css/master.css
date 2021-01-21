@@ -56,13 +56,13 @@ header {
   width: 100%;
 }
 
-.col-21 {
-  width: 21%;
+.col-17 {
+  width: 17%;
   height: 310px;
 }
 
-.col-55 {
-  width: 55%;
+.col-60 {
+  width: 60%;
   height: 310px;
 }
 
@@ -75,6 +75,6 @@ header {
 .mt-1 {
   margin-top: 25px;
 }
-.pad {
-  margin: 0 1%;
+.mlr {
+  margin: 0 3%;
 }
